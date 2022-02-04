@@ -19,8 +19,8 @@
 		041790B427AD58D400208EC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041790AF27AD58D400208EC1 /* LoginViewController.swift */; };
 		041790B527AD58D400208EC1 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041790B027AD58D400208EC1 /* MessageCell.swift */; };
 		041790B627AD58D400208EC1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041790B127AD58D400208EC1 /* RegisterViewController.swift */; };
-		041790B827AD5F8D00208EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041790B727AD5F8D00208EC1 /* Assets.xcassets */; };
 		041790BA27AD70BB00208EC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041790B927AD70BB00208EC1 /* GoogleService-Info.plist */; };
+		041791A227AD93EC00208EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041791A127AD93EC00208EC1 /* Assets.xcassets */; };
 		3A1B8FC8645786E3FB77D753 /* libPods-Flash Chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE44C1ADCCF02D9509787E4 /* libPods-Flash Chat.a */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,8 @@
 		041790AF27AD58D400208EC1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		041790B027AD58D400208EC1 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		041790B127AD58D400208EC1 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		041790B727AD5F8D00208EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../ios code/Flash-Chat/Flash Chat iOS13/Assets.xcassets"; sourceTree = "<group>"; };
 		041790B927AD70BB00208EC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		041791A127AD93EC00208EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE44C1ADCCF02D9509787E4 /* libPods-Flash Chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flash Chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC02F50BD11F3ABAC8168F26 /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		E89E914FD5560824E2AE6DAC /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 				041790A627AD589400208EC1 /* Views */,
 				0417908727AD581500208EC1 /* AppDelegate.swift */,
 				0417908927AD581500208EC1 /* SceneDelegate.swift */,
-				041790B727AD5F8D00208EC1 /* Assets.xcassets */,
 				0417909227AD581700208EC1 /* LaunchScreen.storyboard */,
+				041791A127AD93EC00208EC1 /* Assets.xcassets */,
 				0417909527AD581700208EC1 /* Info.plist */,
 				041790B927AD70BB00208EC1 /* GoogleService-Info.plist */,
 			);
@@ -203,7 +203,7 @@
 				041790AB27AD589400208EC1 /* Main.storyboard in Resources */,
 				041790BA27AD70BB00208EC1 /* GoogleService-Info.plist in Resources */,
 				041790AA27AD589400208EC1 /* MessageCell.xib in Resources */,
-				041790B827AD5F8D00208EC1 /* Assets.xcassets in Resources */,
+				041791A227AD93EC00208EC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
