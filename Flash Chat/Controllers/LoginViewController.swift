@@ -1,13 +1,6 @@
-//
-//  LoginViewController.swift
-//  Flash Chat iOS13
-//
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
 
 import UIKit
-//import Firebase
+import Firebase
 
 class LoginViewController: UIViewController {
 
@@ -22,18 +15,18 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginPressed(_ sender: UIButton) {
         
-//        if let email = emailTextfield.text , let password = passwordTextfield.text {
-//            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-//                if let e = error {
-//                    let alert = UIAlertController(title: "Alert", message: e.localizedDescription, preferredStyle: UIAlertController.Style.alert)
-//                    alert.addAction(UIAlertAction(title: "try again", style: UIAlertAction.Style.cancel, handler: nil))
-//                    self.present(alert, animated: true, completion: nil)
-//                }
-//                else{
-//                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
-//                }
-//            }
-//        }
+        if let email = emailTextfield.text , let password = passwordTextfield.text {
+            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                if let e = error {
+                    let alert = UIAlertController(title: "Alert", message: e.localizedDescription, preferredStyle: UIAlertController.Style.alert)
+                    alert.addAction(UIAlertAction(title: "try again", style: UIAlertAction.Style.cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+                else{
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
+                }
+            }
+        }
     }
     
 }
